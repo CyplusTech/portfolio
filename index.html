@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Portfolio</title>
+
+    <!-- swiper css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+
+    <!-- header design -->
+    <header class="header">
+        <div class="logo-container">
+            <a href="#" class="logo"><img src="images/9576732b-4697-49fe-9baa-bc9525e6f1df.webp" 
+                alt="" width="100%" height="100%"></a>
+        </div>
+
+        <nav class="navbar">
+            <div class="nav-left">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+        <div class="bx bx-moon" id="darkMode-icon"></div> 
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I am</h3>
+            <h1><span>Victor</span> Umekwe</h1>
+            <p>
+                A creative professional with expertise in web development, graphic design, video editing, and music,
+                I help businesses and brands bring their ideas to life.
+            </p>
+
+            <div class="social-media">
+                <a href="https://www.instagram.com/vicky_cyplus?igsh=MWwyZXB4YXJnNHA5aw==" target="_blank"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="https://www.facebook.com/share/15BwtM6DQV/" target="_blank"><i class='bx bxl-facebook'></i></a>
+                <a href="#" target="_blank"><i class='bx bxl-tiktok'></i></a>
+                <a href="https://wa.me/qr/H5OMK3W4A6XRG1" target="_blank"><i class='bx bxl-whatsapp'></i></a>
+                <a href="https://www.linkedin.com/in/victor-umekwe-001936328?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class='bx bxl-linkedin'></i></a>
+            </div>
+
+           <a href="images/my-cv.pdf" download="my-cv.pdf" class="btn">Download CV</a>
+        </div>
+
+        <div class="profession-container">
+            <div class="profession-box">
+                <div class="profession" style="--i:0;">
+                    <i class='bx bx-code-alt'></i>
+                    <h3>Web Developer</h3>
+                </div>
+                <div class="profession" style="--i:2;">
+                    <i class='bx bx-palette'></i>
+                    <h3>Graphic Designer</h3>
+                </div>
+                <div class="profession" style="--i:3;">
+                    <i class='bx bx-video-recording'></i>
+                    <h3>Video Editor</h3>
+                </div>
+                <div class="profession" style="--i:1;">
+                    <i class='bx bx-code'></i>
+                    <h3>Instrumentalist</h3>
+                </div>
+
+                <div class="circle"></div>
+            </div>
+
+            <div class="overlay"></div>
+        </div>
+
+        <div class="home-img">
+            <img src="images/banner-photo2-removebg-preview.png" alt="banner-photo">
+        </div>
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/profilephoto.png" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <p>
+                My job is to build your website so that it is functional and 
+                user-friendly but at the same time attractive.
+            </p>
+            <p>
+                My expertise extends to graphic design, where i bring brands to life through graphic design,
+                crafting compelling visuals that capture attention and drive results
+            </p>
+            <p>In addition to my digital skills, I'm a talented video editor and bass Instrumentalist.
+                I enjoy producing engaging video content and composing music that inspires and uplifts 
+            </p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <!-- services section design -->
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Development</h3>
+                <p>I craft high-performance, responsive, and visually stunning websites that enhance user experience and drive engagement. Whether it’s a business site, or e-commerce platform, 
+                    I ensure speed, security, and seamless functionality to make your brand stand out.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bxs-paint'></i>
+                <h3>Graphic Design</h3>
+                <p>I design powerful brand identities, marketing materials, and social media visuals that captivate and leave a lasting impression. With a keen eye for color, typography, and composition, 
+                    I create designs that are both aesthetically striking and strategically effective.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-video-recording'></i>
+                <!-- <i class='bx bx-bar-chart-alt'></i> -->
+                <h3>Video Editor</h3>
+                <p>I bring cinematic quality and professional storytelling to every video project. 
+                    From YouTube content to commercials and promotional videos, I ensure seamless editing, stunning motion graphics, 
+                    and high-quality color grading for a visually engaging experience.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+             <div class="services-box">
+                <i class='bx bx-code'></i>
+                <!-- <i class='bx bx-bar-chart-alt'></i> -->
+                <h3>Instrumentalist</h3>
+                <p>With a deep passion for rhythm and groove, I provide rich, dynamic basslines for live performances, studio recordings, and custom music projects. Whether for jazz, rock, or gospel, 
+                    my bass playing adds depth, movement, and energy to any composition.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+            <!-- ////////gallery section ////// -->
+    <div id="gallery">
+      <div class="gallery-header">
+        <h2>Our Gallery</h2>
+        <p>
+          Explore the moments of grace, beauty, and confidence captured during
+          our events.
+        </p>
+      </div>
+
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <img
+            src="images/FB_IMG_1733080853005.jpg"
+            alt="Contestant 1"
+          />
+        </div>
+        <div class="gallery-item">
+          <img
+            src="images/IMG_20240916_151158.jpg"
+            alt="Contestant 2"
+          />
+        </div>
+        <div class="gallery-item">
+          <img src="images/20250207_135600.jpg" alt="Contestant 3" />
+        </div>
+        <div class="gallery-item">
+          <img
+            src="images/IMG_20241002_151502.jpg"
+            alt="Contestant 4"
+          />
+        </div>
+        <div class="gallery-item">
+          <img
+            src="images/IMG_20240730_152010.jpg"
+            alt="Contestant 5"
+          />
+        </div>
+        <div class="gallery-item">
+          <img
+            src="images/IMG-20241203-WA0067.jpeg"
+            alt="Contestant 6"
+          />
+        </div>
+      </div>
+    </div>
+
+
+    <!-- portfolio section design -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="images/Screenshot_20250313_083146.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Investment</h4>
+                    <p>It is a fully responsive and secure investment website with multiple plans, real-time tracking, and seamless payment integration, 
+                        designed for efficient and user-friendly financial growth. 🚀</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/IMG-20240505-WA0163.jpeg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Dice Game</h4>
+                    <p>A fun and interactive dice game where players can roll, store scores, and compete. It features secure authentication, 
+                        real-time score updates, and database storage for a seamless gaming experience.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/Screenshot_2024_1207_151115.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>pageantry</h4>
+                    <p>A professional and elegant pageantry website designed for contestant registration, voting, and event management. 
+                        It includes secure payment integration, real-time voting, and an admin panel for easy management.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/20250203_115614.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <!-- <h4>Portfolio</h4> -->
+                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, ipsam est.</p> -->
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/20250203_121908.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <!-- <h4>restaurent</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, ipsam est.</p> -->
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/20250203_133004.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <!-- <h4>Ecom</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, ipsam est.</p> -->
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ///////testimonials section///// -->
+    <div class="testimonials">
+      <div class="testimonials-header">
+        <h2>What People Say</h2>
+        <p>
+          Hear from our contestants, partners, and audience about their
+          experiences with Face of the East.
+        </p>
+      </div>
+
+      <div class="testimonials-marquee">
+        <div class="marquee-content">
+          <!-- Testimonial 3 -->
+          <div class="testimonial-item">
+            <img
+              src="model-banner5.jpeg"
+              alt="Mary Ann"
+              class="testimonial-img"
+            />
+            <blockquote>
+              "The event showcased not just beauty, but also talent and
+              intelligence. A truly inspiring experience for everyone involved."
+            </blockquote>
+            <h4>Mary Ann</h4>
+            <p>Audience Member</p>
+          </div>
+          <!-- Testimonial 1 -->
+          <div class="testimonial-item">
+            <img
+              src="images/model-banner3.jpeg"
+              alt="Jane Doe"
+              class="testimonial-img"
+            />
+            <blockquote>
+              "Participating in Face of the East was life-changing. It gave me
+              the confidence to pursue my dreams and represent my community with
+              pride."
+            </blockquote>
+            <h4>Jane Doe</h4>
+            <p>Winner, 2024</p>
+          </div>
+
+          <!-- Testimonial 3 -->
+          <div class="testimonial-item">
+            <img
+              src="images/model-banner5.jpeg"
+              alt="Mary Ann"
+              class="testimonial-img"
+            />
+            <blockquote>
+              "The event showcased not just beauty, but also talent and
+              intelligence. A truly inspiring experience for everyone involved."
+            </blockquote>
+            <h4>Mary Ann</h4>
+            <p>Audience Member</p>
+          </div>
+
+          <!-- Testimonial 2 -->
+          <div class="testimonial-item">
+            <img
+              src="images/model-banner5.jpeg"
+              alt="John Smith"
+              class="testimonial-img"
+            />
+            <blockquote>
+              "As a sponsor, I was impressed by the professionalism and positive
+              impact of this pageant. It truly empowers young women."
+            </blockquote>
+            <h4>John Smith</h4>
+            <p>Event Sponsor</p>
+          </div>
+
+          <!-- Testimonial 3 -->
+          <div class="testimonial-item">
+            <img
+              src="images/model-banner3.jpeg"
+              alt="Mary Ann"
+              class="testimonial-img"
+            />
+            <blockquote>
+              "The event showcased not just beauty, but also talent and
+              intelligence. A truly inspiring experience for everyone involved."
+            </blockquote>
+            <h4>Mary Ann</h4>
+            <p>Audience Member</p>
+          </div>
+
+          <!-- Repeat Testimonials to Create Seamless Effect -->
+          <div class="testimonial-item">
+            <img
+              src="images/model-banner5.jpeg"
+              alt="Jane Doe"
+              class="testimonial-img"
+            />
+            <blockquote>
+              "Participating in Face of the East was life-changing. It gave me
+              the confidence to pursue my dreams and represent my community with
+              pride."
+            </blockquote>
+            <h4>Jane Doe</h4>
+            <p>Winner, 2024</p>
+          </div>
+
+          <!-- Testimonial 3 -->
+          <div class="testimonial-item">
+            <img
+              src="images/model-banner3.jpeg"
+              alt="Mary Ann"
+              class="testimonial-img"
+            />
+            <blockquote>
+              "The event showcased not just beauty, but also talent and
+              intelligence. A truly inspiring experience for everyone involved."
+            </blockquote>
+            <h4>Mary Ann</h4>
+            <p>Audience Member</p>
+          </div>
+
+          <div class="testimonial-item">
+            <img
+              src="images/model-banner5"
+              alt="John Smith"
+              class="testimonial-img"
+            />
+            <blockquote>
+              "As a sponsor, I was impressed by the professionalism and positive
+              impact of this pageant. It truly empowers young women."
+            </blockquote>
+            <h4>John Smith</h4>
+            <p>Event Sponsor</p>
+          </div>
+
+          <!-- Testimonial 2 -->
+          <div class="testimonial-item">
+            <img
+              src="images/model-banner3"
+              alt="John Smith"
+              class="testimonial-img"
+            />
+            <blockquote>
+              "As a sponsor, I was impressed by the professionalism and positive
+              impact of this pageant. It truly empowers young women."
+            </blockquote>
+            <h4>John Smith</h4>
+            <p>Event Sponsor</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- contact section design -->
+<section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me!</span></h2>
+
+    <form id="contactForm">
+        <div class="input-box">
+            <input type="text" placeholder="Full Name" name="name" required>
+            <input type="email" placeholder="Email Address" name="email" required>
+        </div>
+        <div class="input-box">
+            <input type="tel" placeholder="Mobile Number" name="phone">
+            <input type="text" placeholder="Email Subject" name="subject">
+        </div>
+        <textarea name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+        <input type="submit" value="Send Message" class="btn">
+    </form>
+</section>
+
+    <!-- footer design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- custom js -->
+    <script src="script/script.js">
+        document.getElementById("downloadCV").addEventListener("click", function () {
+            // Create an <a> element for downloading
+            const link = document.createElement("a");
+            link.href = "public/images/my-cv.pdf"; // Update the correct path
+            link.download = "my-cv.pdf"; // Set the downloaded file name
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        });
+    </script>
+</body>
+
+</html>
